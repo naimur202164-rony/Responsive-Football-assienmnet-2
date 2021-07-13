@@ -1,0 +1,146 @@
+/* custom-font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+/* Common-styles */
+body{
+    background-color:#f0e9e9;
+    font-family: 'Poppins', sans-serif;
+    
+   
+   
+    
+}
+
+.main-content{
+   width:930px;
+   margin-left:20px;
+   margin:0 auto;
+   margin-top:30px;
+   padding-right:250px;
+  
+   
+   
+}
+.container{
+ 
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+
+
+/* header-styles */
+#header{
+    background-color:#2D25A0;
+    color:#fff;
+  
+     
+    
+   
+}
+#header .banner img{
+    height:438px;
+    width:556px;
+}
+#header .content .blog h2{
+    font-weight:bold;
+    font-size:56px;
+}
+
+
+
+#header .content button{
+    background-color:#E02C6D;
+    color:#fff;
+    padding:16px 20px;
+    border-radius:10px;
+  
+}
+
+#header .content :hover button{
+    background-image:linear-gradient(cyan,blue);
+    transition:4s ease;
+
+}
+
+#header .content .blog:hover h2{
+    color:#D1E000;
+    transition:3s ease ;
+    font-size:58px;
+}
+
+
+#header .content{
+   display:grid;
+   grid-template-columns:repeat(2,1fr);
+    padding:50px;
+
+}
+
+/* Main content-style-start */
+.main-content{
+    width:930px;
+}
+
+/* players-style */
+
+.players{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-row-gap:30px;
+    grid-column-gap:30px;
+   
+  
+}
+.player {
+    background-color:#FFFFFF;
+    border-radius:3px;
+   
+  
+} 
+.player-data p{
+    font-size:16px;
+    color:#6C6C6C;
+}
+
+.player-data h2{
+    font-size:bold;
+    font-weight:bold;
+}
+.player img {
+   margin:20px;
+   padding:15px;
+} 
+.player .player-data{
+    padding:10px;
+}
+
+.player .player-image img{
+            width:300px;
+            height:256px;
+}
+
+/* Footer-styles */
+.footer{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:530px;
+            padding:30px;
+            align-items: center;
+            
+          
+           
+}
+.footer .social-link .fab,.far{
+  margin-right:30px;
+  font-size:40px;
+}
+.football-logo img{
+    width:200px;
+    height:100px;
+    
+}
+.football-logo {
+    padding-right:250px;
+}
